@@ -381,7 +381,7 @@ watch(
 </script>
 
 <template>
-    <section class="relative">
+    <section class="relative datatable-card">
         <!-- Error Alert -->
         <div
             v-if="error"
@@ -657,7 +657,7 @@ watch(
             </div>
 
             <table
-                class="hidden md:table min-w-full divide-y divide-[var(--color-border)]"
+                class="datatable-modern hidden md:table min-w-full divide-y divide-[var(--color-border)]"
                 role="grid">
                 <thead class="bg-[var(--color-surface-muted)]">
                     <tr>

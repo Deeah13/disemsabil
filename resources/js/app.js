@@ -4,6 +4,7 @@ import { ZiggyVue } from 'ziggy-js'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 import '../css/app.css'
+import '../css/datatable.css'
 import { initializeTheme } from './utils/themeInit'
 import InstantSearch from 'vue-instantsearch/vue3/es'
 
